@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Movie } from 'src/entities/movie.entity';
+import { Movie } from '../../src/entities/movie.entity';
 import { UpdateMovieDto } from './dto/update-movie.dto';
 
 @Injectable()
